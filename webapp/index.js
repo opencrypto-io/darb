@@ -154,7 +154,7 @@ var Table = {
         m('.column.has-text-right', [
           m('div', [
             m('span', 'Watched tokens: '),
-            m('strong', tokens.length),
+            m('span', Object.keys(tokens).length),
           ]),
           m('div', [
             m('span', 'Offers: '),

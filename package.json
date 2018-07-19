@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack webapp/index.js --output docs/app.js -d --watch",
-    "compile": "webpack webapp/index.js --output docs/app.js -d --watch"
+    "compile": "webpack webapp/index.js --output docs/app.js"
   },
   "author": "",
   "license": "ISC",
