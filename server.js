@@ -151,7 +151,9 @@ server.route({
     cors: true
   },
   handler: function(req, h) {
-    return _.sortBy(toArray(DB), [ 'profit_eth' ]).reverse()
+    return _.sortBy(_.filter(toArray(DB), (o) => {
+      return (o.profit_eth >= 0)
+    }), [ 'profit_eth' ]).reverse()
   }
 })
 
