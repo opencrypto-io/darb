@@ -1,6 +1,8 @@
 const m = require('mithril')
 const moment = require('moment')
 
+const apiBase = 'https://darb-api.opencrypto.io'
+
 var offers = null
 var offersVisible = 0
 var offersExchangesCount = {}
@@ -30,8 +32,6 @@ function switchExchange(e) {
     }
   }
 }
-
-const apiBase = 'http://localhost:8056'
 
 function tokenFormat(t) {
   return m('a', { href: 'https://etherscan.io/token/'+t.addr, title: `${t.name} [${t.addr}]` }, t.symbol)
