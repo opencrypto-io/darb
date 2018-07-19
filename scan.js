@@ -74,9 +74,18 @@ async function run() {
   fs.writeFileSync(fn, JSON.stringify(fin, null, 2))
   console.log(`File writed: ${fn} (${Object.keys(fin).length} pairs)`)
 
+  let outTokens = {}
+  Object.keys(tokens).forEach(tk => {
+    let t = tokens[tk]
+    if (t.exchanges.length < 2) {
+      return
+    }
+    outTokens[tk] = t
+  })
+
   const tokensFn = './defs/tokens.json'
-  fs.writeFileSync(tokensFn, JSON.stringify(tokens, null, 2))
-  console.log(`File writed: ${tokensFn} (${Object.keys(tokens).length} tokens)`)
+  fs.writeFileSync(tokensFn, JSON.stringify(outTokens, null, 2))
+  console.log(`File writed: ${tokensFn} (${Object.keys(outTokens).length} tokens)`)
 }
 
 run()

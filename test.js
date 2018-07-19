@@ -7,11 +7,11 @@ async function testBook() {
 }
 
 async function testMarkets() {
-  let markets = await Exchanges.IDEX.getMarkets()
+  let markets = await Exchanges.Paradex.getMarkets()
   console.log(markets)
 }
 
-testBook()
-//testMarkets()
+//testBook()
+testMarkets()
 
 
