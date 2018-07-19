@@ -1,0 +1,25 @@
+{
+  "name": "darb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack webapp/index.js --output docs/app.js -d --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-table": "^0.3.1",
+    "hapi": "^17.5.2",
+    "lodash": "^4.17.10",
+    "mithril": "^1.1.6",
+    "moment": "^2.22.2",
+    "request": "^2.87.0",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

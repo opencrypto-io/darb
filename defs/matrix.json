@@ -1,0 +1,1655 @@
+{
+  "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "ZIL-DAI",
+      "ERCDex": "baseTokenAddress=0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0abdace70d3790235af448c88547603b945604ea:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "DNT-DAI",
+      "ERCDex": "baseTokenAddress=0x0abdace70d3790235af448c88547603b945604ea&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0cf0ee63788a0849fe5297f3407f701e122cc023:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "DATA-DAI",
+      "ERCDex": "baseTokenAddress=0x0cf0ee63788a0849fe5297f3407f701e122cc023&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0d8775f648430679a709e98d2b0cb6250d2887ef:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "BAT-DAI",
+      "ERCDex": "baseTokenAddress=0x0d8775f648430679a709e98d2b0cb6250d2887ef&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "POE-DAI",
+      "ERCDex": "baseTokenAddress=0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0f5d2fb29fb7d3cfee444a200298f468908cc942:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "MANA-DAI",
+      "ERCDex": "baseTokenAddress=0x0f5d2fb29fb7d3cfee444a200298f468908cc942&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "SUB-DAI",
+      "ERCDex": "baseTokenAddress=0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x168296bb09e24a88805cb9c33356536b980d3fc5:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "RHOC-DAI",
+      "ERCDex": "baseTokenAddress=0x168296bb09e24a88805cb9c33356536b980d3fc5&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "NMR-DAI",
+      "Paradex": "18"
+    }
+  },
+  "0x1985365e9f78359a9b6ad760e32412f4a445e862:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "REP-DAI",
+      "ERCDex": "baseTokenAddress=0x1985365e9f78359a9b6ad760e32412f4a445e862&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "BNT-DAI",
+      "ERCDex": "baseTokenAddress=0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "RDN-DAI",
+      "ERCDex": "baseTokenAddress=0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x263c618480dbe35c300d8d5ecda19bbb986acaed:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "MOT-DAI",
+      "ERCDex": "baseTokenAddress=0x263c618480dbe35c300d8d5ecda19bbb986acaed&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x27054b13b1b798b345b591a4d22e6562d47ea75a:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "AST-DAI",
+      "ERCDex": "baseTokenAddress=0x27054b13b1b798b345b591a4d22e6562d47ea75a&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x3597bfd533a99c9aa083587b074434e61eb0a258:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "DENT-DAI",
+      "ERCDex": "baseTokenAddress=0x3597bfd533a99c9aa083587b074434e61eb0a258&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x39bb259f66e1c59d5abef88375979b4d20d98022:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "WAX-DAI",
+      "ERCDex": "baseTokenAddress=0x39bb259f66e1c59d5abef88375979b4d20d98022&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x4156d3342d5c385a87d264f90653733592000581:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "SALT-DAI",
+      "ERCDex": "baseTokenAddress=0x4156d3342d5c385a87d264f90653733592000581&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x419d0d8bdd9af5e606ae2232ed285aff190e711b:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "FUN-DAI",
+      "ERCDex": "baseTokenAddress=0x419d0d8bdd9af5e606ae2232ed285aff190e711b&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x41e5560054824ea6b0732e656e3ad64e20e94e45:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "CVC-DAI",
+      "ERCDex": "baseTokenAddress=0x41e5560054824ea6b0732e656e3ad64e20e94e45&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x42d6622dece394b54999fbd73d108123806f6a18:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "SPANK-DAI",
+      "ERCDex": "baseTokenAddress=0x42d6622dece394b54999fbd73d108123806f6a18&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x45ed02e374aef2e4b34c04e86ad9d45891d10751:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "DFS-DAI",
+      "ERCDex": "baseTokenAddress=0x45ed02e374aef2e4b34c04e86ad9d45891d10751&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x4ceda7906a5ed2179785cd3a40a69ee8bc99c466:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "AION-DAI",
+      "ERCDex": "baseTokenAddress=0x4ceda7906a5ed2179785cd3a40a69ee8bc99c466&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x514910771af9ca656af840dff83e8264ecf986ca:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "LINK-DAI",
+      "ERCDex": "baseTokenAddress=0x514910771af9ca656af840dff83e8264ecf986ca&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x595832f8fc6bf59c85c527fec3740a1b7a361269:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "POWR-DAI",
+      "ERCDex": "baseTokenAddress=0x595832f8fc6bf59c85c527fec3740a1b7a361269&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x5af2be193a6abca9c8817001f45744777db30756:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "ETHOS-DAI",
+      "ERCDex": "baseTokenAddress=0x5af2be193a6abca9c8817001f45744777db30756&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "AE-DAI",
+      "ERCDex": "baseTokenAddress=0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x6810e776880c02933d47db1b9fc05908e5386b96:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "GNO-DAI",
+      "ERCDex": "baseTokenAddress=0x6810e776880c02933d47db1b9fc05908e5386b96&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x744d70fdbe2ba4cf95131626614a1763df805b9e:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "SNT-DAI",
+      "ERCDex": "baseTokenAddress=0x744d70fdbe2ba4cf95131626614a1763df805b9e&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x80fb784b7ed66730e8b1dbd9820afd29931aab03:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "LEND-DAI",
+      "ERCDex": "baseTokenAddress=0x80fb784b7ed66730e8b1dbd9820afd29931aab03&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x8f8221afbb33998d8584a2b05749ba73c37a938a:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "REQ-DAI",
+      "ERCDex": "baseTokenAddress=0x8f8221afbb33998d8584a2b05749ba73c37a938a&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x960b236a07cf122663c4303350609a66a7b288c0:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "ANT-DAI",
+      "ERCDex": "baseTokenAddress=0x960b236a07cf122663c4303350609a66a7b288c0&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "SNM-DAI",
+      "ERCDex": "baseTokenAddress=0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "QSP-DAI",
+      "ERCDex": "baseTokenAddress=0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "MKR-DAI",
+      "Paradex": "12",
+      "ERCDex": "baseTokenAddress=0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+      "OasisDEX": "MKRDAI"
+    }
+  },
+  "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "STORJ-DAI",
+      "ERCDex": "baseTokenAddress=0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xb98d4c97425d9908e66e53a6fdf673acca0be986:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "ABT-DAI",
+      "ERCDex": "baseTokenAddress=0xb98d4c97425d9908e66e53a6fdf673acca0be986&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "MLN-DAI",
+      "ERCDex": "baseTokenAddress=0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "WETH-DAI",
+      "Paradex": "10",
+      "ERCDex": "baseTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+      "OasisDEX": "ETHDAI"
+    }
+  },
+  "0xd26114cd6ee289accf82350c8d8487fedb8a0c07:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "OMG-DAI",
+      "Paradex": "19",
+      "ERCDex": "baseTokenAddress=0xd26114cd6ee289accf82350c8d8487fedb8a0c07&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xdd974d5c2e2928dea5f71b9825b8b646686bd200:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "KNC-DAI",
+      "ERCDex": "baseTokenAddress=0xdd974d5c2e2928dea5f71b9825b8b646686bd200&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xe41d2489571d322189246dafa5ebde1f4699f498:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "ZRX-DAI",
+      "Paradex": "14",
+      "ERCDex": "baseTokenAddress=0xe41d2489571d322189246dafa5ebde1f4699f498&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xf433089366899d83a9f26a773d59ec7ecf30355e:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "MTL-DAI",
+      "ERCDex": "baseTokenAddress=0xf433089366899d83a9f26a773d59ec7ecf30355e&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab:0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+    "src": {
+      "RadarRelay": "IOST-DAI",
+      "ERCDex": "baseTokenAddress=0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab&quoteTokenAddress=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+    }
+  },
+  "0x0371a82e4a9d0a4312f3ee2ac9c6958512891372:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "STU-WETH",
+      "IDEX": "ETH_STU"
+    }
+  },
+  "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ZIL-WETH",
+      "ERCDex": "baseTokenAddress=0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ZIL"
+    }
+  },
+  "0x076c97e1c869072ee22f8c91978c99b4bcb02591:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CBT-WETH",
+      "IDEX": "ETH_CBT"
+    }
+  },
+  "0x0abdace70d3790235af448c88547603b945604ea:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DNT-WETH",
+      "ERCDex": "baseTokenAddress=0x0abdace70d3790235af448c88547603b945604ea&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_DNT"
+    }
+  },
+  "0x0cf0ee63788a0849fe5297f3407f701e122cc023:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DATA-WETH",
+      "ERCDex": "baseTokenAddress=0x0cf0ee63788a0849fe5297f3407f701e122cc023&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_DATA"
+    }
+  },
+  "0x0d8775f648430679a709e98d2b0cb6250d2887ef:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BAT-WETH",
+      "Paradex": "9",
+      "ERCDex": "baseTokenAddress=0x0d8775f648430679a709e98d2b0cb6250d2887ef&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_BAT",
+      "DDEX": "BAT-ETH"
+    }
+  },
+  "0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "POE-WETH",
+      "ERCDex": "baseTokenAddress=0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_POE",
+      "DDEX": "POE-ETH"
+    }
+  },
+  "0x0f513ffb4926ff82d7f60a05069047aca295c413:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "XSC-WETH",
+      "IDEX": "ETH_XSC"
+    }
+  },
+  "0x0f5d2fb29fb7d3cfee444a200298f468908cc942:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MANA-WETH",
+      "ERCDex": "baseTokenAddress=0x0f5d2fb29fb7d3cfee444a200298f468908cc942&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_MANA",
+      "DDEX": "MANA-ETH"
+    }
+  },
+  "0x1063ce524265d5a3a624f4914acd573dd89ce988:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AIX-WETH",
+      "IDEX": "ETH_AIX"
+    }
+  },
+  "0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RKT-WETH",
+      "IDEX": "ETH_RKT"
+    }
+  },
+  "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BLT-WETH",
+      "IDEX": "ETH_BLT"
+    }
+  },
+  "0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SUB-WETH",
+      "ERCDex": "baseTokenAddress=0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SUB"
+    }
+  },
+  "0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "GRID-WETH",
+      "IDEX": "ETH_GRID"
+    }
+  },
+  "0x12fef5e57bf45873cd9b62e9dbd7bfb99e32d73e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CFI-WETH",
+      "IDEX": "ETH_CFI"
+    }
+  },
+  "0x168296bb09e24a88805cb9c33356536b980d3fc5:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RHOC-WETH",
+      "ERCDex": "baseTokenAddress=0x168296bb09e24a88805cb9c33356536b980d3fc5&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_RHOC"
+    }
+  },
+  "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "NMR-WETH",
+      "Paradex": "17",
+      "IDEX": "ETH_NMR",
+      "DDEX": "NMR-ETH"
+    }
+  },
+  "0x1985365e9f78359a9b6ad760e32412f4a445e862:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "REP-WETH",
+      "ERCDex": "baseTokenAddress=0x1985365e9f78359a9b6ad760e32412f4a445e862&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_REP"
+    }
+  },
+  "0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CAN-WETH",
+      "IDEX": "ETH_CAN"
+    }
+  },
+  "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BNT-WETH",
+      "ERCDex": "baseTokenAddress=0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_BNT"
+    }
+  },
+  "0x20f7a3ddf244dc9299975b4da1c39f8d5d75f05a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SPN-WETH",
+      "IDEX": "ETH_SPN"
+    }
+  },
+  "0x23b75bc7aaf28e2d6628c3f424b3882f8f072a3c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "VIT-WETH",
+      "IDEX": "ETH_VIT"
+    }
+  },
+  "0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "UKG-WETH",
+      "IDEX": "ETH_UKG",
+      "DDEX": "UKG-ETH"
+    }
+  },
+  "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RDN-WETH",
+      "ERCDex": "baseTokenAddress=0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_RDN",
+      "DDEX": "RDN-ETH"
+    }
+  },
+  "0x263c618480dbe35c300d8d5ecda19bbb986acaed:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MOT-WETH",
+      "ERCDex": "baseTokenAddress=0x263c618480dbe35c300d8d5ecda19bbb986acaed&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_MOT",
+      "DDEX": "MOT-ETH"
+    }
+  },
+  "0x27054b13b1b798b345b591a4d22e6562d47ea75a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AST-WETH",
+      "ERCDex": "baseTokenAddress=0x27054b13b1b798b345b591a4d22e6562d47ea75a&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_AST"
+    }
+  },
+  "0x27695e09149adc738a978e9a678f99e4c39e9eb9:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "KICK-WETH",
+      "IDEX": "ETH_KICK"
+    }
+  },
+  "0x27dce1ec4d3f72c3e457cc50354f1f975ddef488:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AIR-WETH",
+      "IDEX": "ETH_AIR"
+    }
+  },
+  "0x27f610bf36eca0939093343ac28b1534a721dbb4:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "WAND-WETH",
+      "IDEX": "ETH_WAND"
+    }
+  },
+  "0x2859021ee7f2cb10162e67f33af2d22764b31aff:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SNTR-WETH",
+      "IDEX": "ETH_SNTR",
+      "DDEX": "SNTR-ETH"
+    }
+  },
+  "0x340d2bde5eb28c1eed91b2f790723e3b160613b7:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "VEE-WETH",
+      "IDEX": "ETH_VEE"
+    }
+  },
+  "0x3597bfd533a99c9aa083587b074434e61eb0a258:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DENT-WETH",
+      "ERCDex": "baseTokenAddress=0x3597bfd533a99c9aa083587b074434e61eb0a258&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_DENT"
+    }
+  },
+  "0x3618516f45cd3c913f81f9987af41077932bc40d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "PCL-WETH",
+      "IDEX": "ETH_PCL",
+      "DDEX": "PCL-ETH"
+    }
+  },
+  "0x386467f1f3ddbe832448650418311a479eecfc57:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MBRS-WETH",
+      "IDEX": "ETH_MBRS"
+    }
+  },
+  "0x3883f5e181fccaf8410fa61e12b59bad963fb645:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "THETA-WETH",
+      "IDEX": "ETH_THETA",
+      "DDEX": "THETA-ETH"
+    }
+  },
+  "0x39bb259f66e1c59d5abef88375979b4d20d98022:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "WAX-WETH",
+      "ERCDex": "baseTokenAddress=0x39bb259f66e1c59d5abef88375979b4d20d98022&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_WAX"
+    }
+  },
+  "0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RVT-WETH",
+      "IDEX": "ETH_RVT"
+    }
+  },
+  "0x408e41876cccdc0f92210600ef50372656052a38:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "REN-WETH",
+      "IDEX": "ETH_REN",
+      "DDEX": "REN-ETH"
+    }
+  },
+  "0x4156d3342d5c385a87d264f90653733592000581:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SALT-WETH",
+      "ERCDex": "baseTokenAddress=0x4156d3342d5c385a87d264f90653733592000581&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SALT"
+    }
+  },
+  "0x419d0d8bdd9af5e606ae2232ed285aff190e711b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "FUN-WETH",
+      "ERCDex": "baseTokenAddress=0x419d0d8bdd9af5e606ae2232ed285aff190e711b&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_FUN"
+    }
+  },
+  "0x41e5560054824ea6b0732e656e3ad64e20e94e45:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CVC-WETH",
+      "ERCDex": "baseTokenAddress=0x41e5560054824ea6b0732e656e3ad64e20e94e45&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_CVC"
+    }
+  },
+  "0x42d6622dece394b54999fbd73d108123806f6a18:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SPANK-WETH",
+      "ERCDex": "baseTokenAddress=0x42d6622dece394b54999fbd73d108123806f6a18&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SPANK"
+    }
+  },
+  "0x44f588aeeb8c44471439d1270b3603c66a9262f1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SNIP-WETH",
+      "IDEX": "ETH_SNIP"
+    }
+  },
+  "0x45ed02e374aef2e4b34c04e86ad9d45891d10751:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DFS-WETH",
+      "ERCDex": "baseTokenAddress=0x45ed02e374aef2e4b34c04e86ad9d45891d10751&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    }
+  },
+  "0x4aac461c86abfa71e9d00d9a2cde8d74e4e1aeea:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ZINC-WETH",
+      "IDEX": "ETH_ZINC"
+    }
+  },
+  "0x4ceda7906a5ed2179785cd3a40a69ee8bc99c466:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AION-WETH",
+      "ERCDex": "baseTokenAddress=0x4ceda7906a5ed2179785cd3a40a69ee8bc99c466&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_AION"
+    }
+  },
+  "0x4d8fc1453a0f359e99c9675954e656d80d996fbf:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BEE-WETH",
+      "IDEX": "ETH_BEE"
+    }
+  },
+  "0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AMB-WETH",
+      "IDEX": "ETH_AMB"
+    }
+  },
+  "0x4df47b4969b2911c966506e3592c41389493953b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "FND-WETH",
+      "IDEX": "ETH_FND"
+    }
+  },
+  "0x4df812f6064def1e5e029f1ca858777cc98d2d81:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "XAUR-WETH",
+      "IDEX": "ETH_XAUR"
+    }
+  },
+  "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DGX-WETH",
+      "IDEX": "ETH_DGX"
+    }
+  },
+  "0x514910771af9ca656af840dff83e8264ecf986ca:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "LINK-WETH",
+      "ERCDex": "baseTokenAddress=0x514910771af9ca656af840dff83e8264ecf986ca&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_LINK"
+    }
+  },
+  "0x52a7cb918c11a16958be40cba7e31e32a499a465:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "FDX-WETH",
+      "IDEX": "ETH_FDX"
+    }
+  },
+  "0x554c20b7c486beee439277b4540a434566dc4c02:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "HST-WETH",
+      "IDEX": "ETH_HST"
+    }
+  },
+  "0x56ba2ee7890461f463f7be02aac3099f6d5811a8:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CAT-WETH",
+      "IDEX": "ETH_CAT"
+    }
+  },
+  "0x5732046a883704404f284ce41ffadd5b007fd668:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BLZ-WETH",
+      "IDEX": "ETH_BLZ"
+    }
+  },
+  "0x595832f8fc6bf59c85c527fec3740a1b7a361269:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "POWR-WETH",
+      "ERCDex": "baseTokenAddress=0x595832f8fc6bf59c85c527fec3740a1b7a361269&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_POWR"
+    }
+  },
+  "0x5af2be193a6abca9c8817001f45744777db30756:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ETHOS-WETH",
+      "ERCDex": "baseTokenAddress=0x5af2be193a6abca9c8817001f45744777db30756&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ETHOS"
+    }
+  },
+  "0x5b09a0371c1da44a8e24d36bf5deb1141a84d875:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MAD-WETH",
+      "IDEX": "ETH_MAD",
+      "DDEX": "MAD-ETH"
+    }
+  },
+  "0x5b2e4a700dfbc560061e957edec8f6eeeb74a320:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "INS-WETH",
+      "IDEX": "ETH_INS"
+    }
+  },
+  "0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AE-WETH",
+      "ERCDex": "baseTokenAddress=0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_AE"
+    }
+  },
+  "0x5e3346444010135322268a4630d2ed5f8d09446c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "LOC-WETH",
+      "IDEX": "ETH_LOC"
+    }
+  },
+  "0x607f4c5bb672230e8672085532f7e901544a7375:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RLC-WETH",
+      "IDEX": "ETH_RLC"
+    }
+  },
+  "0x6425c6be902d692ae2db752b3c268afadb099d3b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MWAT-WETH",
+      "IDEX": "ETH_MWAT"
+    }
+  },
+  "0x672a1ad4f667fb18a333af13667aa0af1f5b5bdd:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CRED-WETH",
+      "IDEX": "ETH_CRED"
+    }
+  },
+  "0x6810e776880c02933d47db1b9fc05908e5386b96:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "GNO-WETH",
+      "ERCDex": "baseTokenAddress=0x6810e776880c02933d47db1b9fc05908e5386b96&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_GNO"
+    }
+  },
+  "0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BERRY-WETH",
+      "IDEX": "ETH_BERRY"
+    }
+  },
+  "0x6c6ee5e31d828de241282b9606c8e98ea48526e2:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "HOT-WETH",
+      "IDEX": "ETH_HOT",
+      "DDEX": "HOLO-ETH"
+    }
+  },
+  "0x744d70fdbe2ba4cf95131626614a1763df805b9e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SNT-WETH",
+      "Paradex": "8",
+      "ERCDex": "baseTokenAddress=0x744d70fdbe2ba4cf95131626614a1763df805b9e&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SNT",
+      "DDEX": "SNT-ETH"
+    }
+  },
+  "0x7654915a1b82d6d2d0afc37c52af556ea8983c7e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "IFT-WETH",
+      "IDEX": "ETH_IFT"
+    }
+  },
+  "0x7d4b8cce0591c9044a22ee543533b72e976e36c3:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CAG-WETH",
+      "IDEX": "ETH_CAG"
+    }
+  },
+  "0x80fb784b7ed66730e8b1dbd9820afd29931aab03:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "LEND-WETH",
+      "ERCDex": "baseTokenAddress=0x80fb784b7ed66730e8b1dbd9820afd29931aab03&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_LEND"
+    }
+  },
+  "0x814964b1bceaf24e26296d031eadf134a2ca4105:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "NEWB-WETH",
+      "IDEX": "ETH_NEWB"
+    }
+  },
+  "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DAI-WETH",
+      "DDEX": "DAI-ETH"
+    }
+  },
+  "0x8a854288a5976036a725879164ca3e91d30c6a1b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "GET-WETH",
+      "IDEX": "ETH_GET",
+      "DDEX": "GET-ETH"
+    }
+  },
+  "0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "PTOY-WETH",
+      "IDEX": "ETH_PTOY"
+    }
+  },
+  "0x8b353021189375591723e7384262f45709a3c3dc:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "TOMO-WETH",
+      "IDEX": "ETH_TOMO",
+      "DDEX": "TOMO-ETH"
+    }
+  },
+  "0x8db54ca569d3019a2ba126d03c37c44b5ef81ef6:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DXT-WETH",
+      "IDEX": "ETH_DXT"
+    }
+  },
+  "0x8eb24319393716668d768dcec29356ae9cffe285:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AGI-WETH",
+      "IDEX": "ETH_AGI",
+      "DDEX": "AGI-ETH"
+    }
+  },
+  "0x8f8221afbb33998d8584a2b05749ba73c37a938a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "REQ-WETH",
+      "Paradex": "16",
+      "ERCDex": "baseTokenAddress=0x8f8221afbb33998d8584a2b05749ba73c37a938a&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_REQ",
+      "DDEX": "REQ-ETH"
+    }
+  },
+  "0x9214ec02cb71cba0ada6896b8da260736a67ab10:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "REAL-WETH",
+      "IDEX": "ETH_REAL"
+    }
+  },
+  "0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "EVE-WETH",
+      "IDEX": "ETH_EVE",
+      "DDEX": "EVE-ETH"
+    }
+  },
+  "0x960b236a07cf122663c4303350609a66a7b288c0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ANT-WETH",
+      "ERCDex": "baseTokenAddress=0x960b236a07cf122663c4303350609a66a7b288c0&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ANT"
+    }
+  },
+  "0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SNM-WETH",
+      "ERCDex": "baseTokenAddress=0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SNM"
+    }
+  },
+  "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "POLY-WETH",
+      "IDEX": "ETH_POLY",
+      "DDEX": "POLY-ETH"
+    }
+  },
+  "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "QSP-WETH",
+      "ERCDex": "baseTokenAddress=0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_QSP",
+      "DDEX": "QSP-ETH"
+    }
+  },
+  "0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BAX-WETH",
+      "IDEX": "ETH_BAX",
+      "DDEX": "BAX-ETH"
+    }
+  },
+  "0x9af2c6b1a28d3d6bc084bd267f70e90d49741d5b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AXP-WETH",
+      "IDEX": "ETH_AXP"
+    }
+  },
+  "0x9af4f26941677c706cfecf6d3379ff01bb85d5ab:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DRT-WETH",
+      "IDEX": "ETH_DRT"
+    }
+  },
+  "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MKR-WETH",
+      "Paradex": "1",
+      "ERCDex": "baseTokenAddress=0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_MKR",
+      "OasisDEX": "MKRETH",
+      "DDEX": "MKR-ETH"
+    }
+  },
+  "0xa017ac5fac5941f95010b12570b812c974469c2c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "XES-WETH",
+      "IDEX": "ETH_XES"
+    }
+  },
+  "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "LOOM-WETH",
+      "IDEX": "ETH_LOOM",
+      "DDEX": "LOOM-ETH"
+    }
+  },
+  "0xa5fd1a791c4dfcaacc963d4f73c6ae5824149ea7:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "JNT-WETH",
+      "IDEX": "ETH_JNT"
+    }
+  },
+  "0xa8006c4ca56f24d6836727d106349320db7fef82:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "INXT-WETH",
+      "IDEX": "ETH_INXT"
+    }
+  },
+  "0xac3211a5025414af2866ff09c23fc18bc97e79b1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DOV-WETH",
+      "IDEX": "ETH_DOV"
+    }
+  },
+  "0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BCDT-WETH",
+      "IDEX": "ETH_BCDT"
+    }
+  },
+  "0xb24754be79281553dc1adc160ddf5cd9b74361a4:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "XRL-WETH",
+      "IDEX": "ETH_XRL",
+      "DDEX": "XRL-ETH"
+    }
+  },
+  "0xb45a50545beeab73f38f31e5973768c421805e5e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "TKR-WETH",
+      "IDEX": "ETH_TKR"
+    }
+  },
+  "0xb4efd85c19999d84251304bda99e90b92300bd93:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RPL-WETH",
+      "IDEX": "ETH_RPL"
+    }
+  },
+  "0xb5a5f22694352c15b00323844ad545abb2b11028:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ICX-WETH",
+      "IDEX": "ETH_ICX"
+    }
+  },
+  "0xb62d18dea74045e822352ce4b3ee77319dc5ff2f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "EVC-WETH",
+      "IDEX": "ETH_EVC"
+    }
+  },
+  "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "STORJ-WETH",
+      "ERCDex": "baseTokenAddress=0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_STORJ"
+    }
+  },
+  "0xb98d4c97425d9908e66e53a6fdf673acca0be986:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ABT-WETH",
+      "ERCDex": "baseTokenAddress=0xb98d4c97425d9908e66e53a6fdf673acca0be986&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ABT",
+      "DDEX": "ABT-ETH"
+    }
+  },
+  "0xba5f11b16b155792cf3b2e6880e8706859a8aeb6:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ARN-WETH",
+      "IDEX": "ETH_ARN"
+    }
+  },
+  "0xbbff862d906e348e9946bfb2132ecb157da3d4b4:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SS-WETH",
+      "IDEX": "ETH_SS",
+      "DDEX": "SS-ETH"
+    }
+  },
+  "0xbc86727e770de68b1060c91f6bb6945c73e10388:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "XNK-WETH",
+      "IDEX": "ETH_XNK"
+    }
+  },
+  "0xbdc5bac39dbe132b1e030e898ae3830017d7d969:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SNOV-WETH",
+      "IDEX": "ETH_SNOV"
+    }
+  },
+  "0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MLN-WETH",
+      "ERCDex": "baseTokenAddress=0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_MLN"
+    }
+  },
+  "0xbf2179859fc6d5bee9bf9158632dc51678a4100e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ELF-WETH",
+      "IDEX": "ETH_ELF",
+      "DDEX": "ELF-ETH"
+    }
+  },
+  "0xc12d099be31567add4e4e4d0d45691c3f58f5663:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "AUC-WETH",
+      "IDEX": "ETH_AUC"
+    }
+  },
+  "0xc27a2f05fa577a83ba0fdb4c38443c0718356501:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "TAU-WETH",
+      "IDEX": "ETH_TAU",
+      "DDEX": "TAU-ETH"
+    }
+  },
+  "0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "EQC-WETH",
+      "IDEX": "ETH_EQC"
+    }
+  },
+  "0xd0352a019e9ab9d757776f532377aaebd36fd541:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "FSN-WETH",
+      "IDEX": "ETH_FSN"
+    }
+  },
+  "0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "STORM-WETH",
+      "IDEX": "ETH_STORM"
+    }
+  },
+  "0xd26114cd6ee289accf82350c8d8487fedb8a0c07:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "OMG-WETH",
+      "Paradex": "6",
+      "ERCDex": "baseTokenAddress=0xd26114cd6ee289accf82350c8d8487fedb8a0c07&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_OMG",
+      "DDEX": "OMG-ETH"
+    }
+  },
+  "0xd2d6158683aee4cc838067727209a0aaf4359de3:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BNTY-WETH",
+      "IDEX": "ETH_BNTY",
+      "DDEX": "BNTY-ETH"
+    }
+  },
+  "0xd2fa8f92ea72abb35dbd6deca57173d22db2ba49:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ORI-WETH",
+      "IDEX": "ETH_ORI",
+      "DDEX": "ORI-ETH"
+    }
+  },
+  "0xd49ff13661451313ca1553fd6954bd1d9b6e02b9:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ELEC-WETH",
+      "IDEX": "ETH_ELEC",
+      "DDEX": "ELEC-ETH"
+    }
+  },
+  "0xd4c435f5b09f855c3317c8524cb1f586e42795fa:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CND-WETH",
+      "IDEX": "ETH_CND"
+    }
+  },
+  "0xd7732e3783b0047aa251928960063f863ad022d8:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BRM-WETH",
+      "DDEX": "BRM-ETH"
+    }
+  },
+  "0xd8912c10681d8b21fd3742244f44658dba12264e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "PLU-WETH",
+      "IDEX": "ETH_PLU"
+    }
+  },
+  "0xd8950fdeaa10304b7a7fd03a2fc66bc39f3c711a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "WYS-WETH",
+      "IDEX": "ETH_WYS"
+    }
+  },
+  "0xdd6c68bb32462e01705011a4e2ad1a60740f217f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "HBT-WETH",
+      "IDEX": "ETH_HBT",
+      "DDEX": "HBT-ETH"
+    }
+  },
+  "0xdd974d5c2e2928dea5f71b9825b8b646686bd200:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "KNC-WETH",
+      "ERCDex": "baseTokenAddress=0xdd974d5c2e2928dea5f71b9825b8b646686bd200&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_KNC"
+    }
+  },
+  "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DGD-WETH",
+      "IDEX": "ETH_DGD"
+    }
+  },
+  "0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MAN-WETH",
+      "IDEX": "ETH_MAN",
+      "DDEX": "MAN-ETH"
+    }
+  },
+  "0xe41d2489571d322189246dafa5ebde1f4699f498:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ZRX-WETH",
+      "Paradex": "4",
+      "ERCDex": "baseTokenAddress=0xe41d2489571d322189246dafa5ebde1f4699f498&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ZRX",
+      "DDEX": "ZRX-ETH"
+    }
+  },
+  "0xea097a2b1db00627b2fa17460ad260c016016977:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "UFR-WETH",
+      "IDEX": "ETH_UFR"
+    }
+  },
+  "0xea11755ae41d889ceec39a63e6ff75a02bc1c00d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "CTXC-WETH",
+      "IDEX": "ETH_CTXC",
+      "DDEX": "CTXC-ETH"
+    }
+  },
+  "0xea38eaa3c86c8f9b751533ba2e562deb9acded40:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "FUEL-WETH",
+      "IDEX": "ETH_FUEL"
+    }
+  },
+  "0xeb7c20027172e5d143fb030d50f91cece2d1485d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "EBTC-WETH",
+      "DDEX": "EBTC-ETH"
+    }
+  },
+  "0xebbdf302c940c6bfd49c6b165f457fdb324649bc:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "HYDRO-WETH",
+      "IDEX": "ETH_HYDRO"
+    }
+  },
+  "0xef2463099360a085f1f10b076ed72ef625497a06:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "SHP-WETH",
+      "IDEX": "ETH_SHP"
+    }
+  },
+  "0xf1e48f13768bd8114a530070b43257a63f24bb12:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "E10-WETH",
+      "DDEX": "E10-ETH"
+    }
+  },
+  "0xf433089366899d83a9f26a773d59ec7ecf30355e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "MTL-WETH",
+      "ERCDex": "baseTokenAddress=0xf433089366899d83a9f26a773d59ec7ecf30355e&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_MTL"
+    }
+  },
+  "0xf6cfe53d6febaeea051f400ff5fc14f0cbbdaca1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "DGPT-WETH",
+      "IDEX": "ETH_DGPT"
+    }
+  },
+  "0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "RCN-WETH",
+      "IDEX": "ETH_RCN"
+    }
+  },
+  "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "IOST-WETH",
+      "ERCDex": "baseTokenAddress=0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_IOST",
+      "DDEX": "IOST-ETH"
+    }
+  },
+  "0xfa456cf55250a839088b27ee32a424d7dacb54ff:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "BTT-WETH",
+      "IDEX": "ETH_BTT"
+    }
+  },
+  "0xfec0cf7fe078a500abf15f1284958f22049c2c7e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "RadarRelay": "ART-WETH",
+      "IDEX": "ETH_ART"
+    }
+  },
+  "0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_KIN",
+      "DDEX": "KIN-ETH"
+    }
+  },
+  "0x4470bb87d77b963a013db939be332f927f2b992e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0x4470bb87d77b963a013db939be332f927f2b992e&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_ADX"
+    }
+  },
+  "0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_VIB"
+    }
+  },
+  "0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_SNGLS"
+    }
+  },
+  "0xef68e7c694f40c8202821edf525de3782458639f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0xef68e7c694f40c8202821edf525de3782458639f&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_LRC"
+    }
+  },
+  "0x667088b212ce3d06a1b553a7221e1fd19000d9af:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0x667088b212ce3d06a1b553a7221e1fd19000d9af&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_WINGS"
+    }
+  },
+  "0xb8c77482e45f1f44de1745f52c74426c631bdd52:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "ERCDex": "baseTokenAddress=0xb8c77482e45f1f44de1745f52c74426c631bdd52&quoteTokenAddress=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "IDEX": "ETH_BNB"
+    }
+  },
+  "0xb5dbc6d3cf380079df3b27135664b6bcf45d1869:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_OMX",
+      "DDEX": "OMX-ETH"
+    }
+  },
+  "0x80a7e048f37a50500351c204cb407766fa3bae7f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CRPT",
+      "DDEX": "CRPT-ETH"
+    }
+  },
+  "0xf44745fbd41f6a1ba151df190db0564c5fcc4410:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CPY",
+      "DDEX": "CPY-ETH"
+    }
+  },
+  "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_IOTX",
+      "DDEX": "IOTX-ETH"
+    }
+  },
+  "0x1829aa045e21e0d59580024a951db48096e01782:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_FXT",
+      "DDEX": "FXT-ETH"
+    }
+  },
+  "0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_MET",
+      "DDEX": "MET-ETH"
+    }
+  },
+  "0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_PAI",
+      "DDEX": "PAI-ETH"
+    }
+  },
+  "0xb1eef147028e9f480dbc5ccaa3277d417d1b85f0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_SEELE",
+      "DDEX": "SEELE-ETH"
+    }
+  },
+  "0xb6ed7644c69416d67b522e20bc294a9a9b405b31:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_0XBTC",
+      "DDEX": "0xBTC-ETH"
+    }
+  },
+  "0x4162178b78d6985480a308b2190ee5517460406d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CLN",
+      "DDEX": "CLN-ETH"
+    }
+  },
+  "0xbcdfe338d55c061c084d81fd793ded00a27f226d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DML",
+      "DDEX": "DML-ETH"
+    }
+  },
+  "0xffa93aacf49297d51e211817452839052fdfb961:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DCC",
+      "DDEX": "DCC-ETH"
+    }
+  },
+  "0x954b5de09a55e59755acbda29e1eb74a45d30175:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_FLUZ",
+      "DDEX": "FLUZ-ETH"
+    }
+  },
+  "0xe3278df3eb2085ba9b6899812a99a10f9ca5e0df:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_TOTO",
+      "DDEX": "TOTO-ETH"
+    }
+  },
+  "0x69b148395ce0015c13e36bffbad63f49ef874e03:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DTA",
+      "DDEX": "DTA-ETH"
+    }
+  },
+  "0x55296f69f40ea6d20e478533c15a6b08b654e758:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_XYO",
+      "DDEX": "XYO-ETH"
+    }
+  },
+  "0x2008e3057bd734e10ad13c9eae45ff132abc1722:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_ZCO",
+      "DDEX": "ZCO-ETH"
+    }
+  },
+  "0x4e0603e2a27a30480e5e3a4fe548e29ef12f64be:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CREDO",
+      "DDEX": "CREDO-ETH"
+    }
+  },
+  "0xf091cf09c51811819db705710e9634b8bf18f164:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_COU",
+      "DDEX": "COU-ETH"
+    }
+  },
+  "0xfd107b473ab90e8fbd89872144a3dc92c40fa8c9:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_LALA",
+      "DDEX": "LALA-ETH"
+    }
+  },
+  "0xafd8f91c4d7c2e3240f4154a1c596048035eb63c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_IGNX",
+      "DDEX": "IGNX-ETH"
+    }
+  },
+  "0x46b9ad944d1059450da1163511069c718f699d31:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CS",
+      "DDEX": "CS-ETH"
+    }
+  },
+  "0x0947b0e6d821378805c9598291385ce7c791a6b2:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_LND",
+      "DDEX": "LND-ETH"
+    }
+  },
+  "0x3293cc907fde439b39aedaf1b982785adaff186b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_TRIA",
+      "DDEX": "TRIA-ETH"
+    }
+  },
+  "0xa8258abc8f2811dd48eccd209db68f25e3e34667:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DAG",
+      "DDEX": "DAG-ETH"
+    }
+  },
+  "0x63e634330a20150dbb61b15648bc73855d6ccf07:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_LNC",
+      "DDEX": "LNC-ETH"
+    }
+  },
+  "0xc86d054809623432210c107af2e3f619dcfbf652:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_UPP",
+      "DDEX": "UPP-ETH"
+    }
+  },
+  "0x1460a58096d80a50a2f1f956dda497611fa4f165:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CHX",
+      "DDEX": "CHX-ETH"
+    }
+  },
+  "0x8a77e40936bbc27e80e9a3f526368c967869c86d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_MVP",
+      "DDEX": "MVP-ETH"
+    }
+  },
+  "0xe5f166c0d8872b68790061317bb6cca04582c912:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_TFD",
+      "DDEX": "TFD-ETH"
+    }
+  },
+  "0x8713d26637cf49e1b6b4a7ce57106aabc9325343:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_CNN",
+      "DDEX": "CNN-ETH"
+    }
+  },
+  "0x17f8afb63dfcdcc90ebe6e84f060cc306a98257d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_NBAI",
+      "DDEX": "NBAI-ETH"
+    }
+  },
+  "0xd0929d411954c47438dc1d871dd6081f5c5e149c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_RFR",
+      "DDEX": "RFR-ETH"
+    }
+  },
+  "0xd53370acf66044910bb49cbcfe8f3cd020337f60:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_SEN",
+      "DDEX": "SEN-ETH"
+    }
+  },
+  "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_QKC",
+      "DDEX": "QKC-ETH"
+    }
+  },
+  "0xabf1411106314b22307ef99c6f8e7d39775b0a95:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_BASE",
+      "DDEX": "BASE-ETH"
+    }
+  },
+  "0x491c9a23db85623eed455a8efdd6aba9b911c5df:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_HER",
+      "DDEX": "HER-ETH"
+    }
+  },
+  "0xcb94be6f13a1182e4a4b6140cb7bf2025d28e41b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_TRST",
+      "DDEX": "TRST-ETH"
+    }
+  },
+  "0x0f8c45b896784a1e408526b9300519ef8660209c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_XMX",
+      "DDEX": "XMX-ETH"
+    }
+  },
+  "0x998b3b82bc9dba173990be7afb772788b5acb8bd:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_BANCA",
+      "DDEX": "BANCA-ETH"
+    }
+  },
+  "0xeda8b016efa8b1161208cf041cd86972eee0f31e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_IHT",
+      "DDEX": "IHT-ETH"
+    }
+  },
+  "0xb63b606ac810a52cca15e44bb630fd42d8d1d83d:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_MCO",
+      "DDEX": "MCO-ETH"
+    }
+  },
+  "0xf8e386eda857484f5a12e4b5daa9984e06e73705:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_IND",
+      "DDEX": "IND-ETH"
+    }
+  },
+  "0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_ABX",
+      "DDEX": "ABX-ETH"
+    }
+  },
+  "0xc528c28fec0a90c083328bc45f587ee215760a0f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_EDR",
+      "DDEX": "EDR-ETH"
+    }
+  },
+  "0x5e6b6d9abad9093fdc861ea1600eba1b355cd940:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_ITC",
+      "DDEX": "ITC-ETH"
+    }
+  },
+  "0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_SENT",
+      "DDEX": "SENT-ETH"
+    }
+  },
+  "0x63f584fa56e60e4d0fe8802b27c7e6e3b33e007f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_BOX",
+      "DDEX": "BOX-ETH"
+    }
+  },
+  "0x4cf488387f035ff08c371515562cba712f9015d4:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_WPR",
+      "DDEX": "WPR-ETH"
+    }
+  },
+  "0xc42209accc14029c1012fb5680d95fbd6036e2a0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_PPP",
+      "DDEX": "PPP-ETH"
+    }
+  },
+  "0x9e46a38f5daabe8683e10793b06749eef7d733d1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_NCT",
+      "DDEX": "NCT-ETH"
+    }
+  },
+  "0x9b70740e708a083c6ff38df52297020f5dfaa5ee:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DAN",
+      "DDEX": "DAN-ETH"
+    }
+  },
+  "0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_SRN",
+      "DDEX": "SRN-ETH"
+    }
+  },
+  "0x08b4c866ae9d1be56a06e0c302054b4ffe067b43:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_BITCAR",
+      "DDEX": "BITCAR-ETH"
+    }
+  },
+  "0x543ff227f64aa17ea132bf9886cab5db55dcaddf:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_GEN",
+      "DDEX": "GEN-ETH"
+    }
+  },
+  "0x8810c63470d38639954c6b41aac545848c46484a:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_ADI",
+      "DDEX": "ADI-ETH"
+    }
+  },
+  "0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_DMT",
+      "DDEX": "DMT-ETH"
+    }
+  },
+  "0x00c4b398500645eb5da00a1a379a88b11683ba01:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_EXC",
+      "DDEX": "EXC-ETH"
+    }
+  },
+  "0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_KRL",
+      "DDEX": "KRL-ETH"
+    }
+  },
+  "0x4e15361fd6b4bb609fa63c81a2be19d873717870:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_FTM",
+      "DDEX": "FTM-ETH"
+    }
+  },
+  "0x436f0f3a982074c4a05084485d421466a994fe53:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_RTE",
+      "DDEX": "RTE-ETH"
+    }
+  },
+  "0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_ABYSS",
+      "DDEX": "ABYSS-ETH"
+    }
+  },
+  "0xd99b8a7fa48e25cce83b81812220a3e03bf64e5f:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_SKM",
+      "DDEX": "SKM-ETH"
+    }
+  },
+  "0x45245bc59219eeaaf6cd3f382e078a461ff9de7b:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_BKX",
+      "DDEX": "BKX-ETH"
+    }
+  },
+  "0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_PARETO",
+      "DDEX": "PARETO-ETH"
+    }
+  },
+  "0xb20043f149817bff5322f1b928e89abfc65a9925:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_EXRT",
+      "DDEX": "EXRT-ETH"
+    }
+  },
+  "0xfa05a73ffe78ef8f1a739473e462c54bae6567d9:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_LUN",
+      "DDEX": "LUN-ETH"
+    }
+  },
+  "0xfedae5642668f8636a11987ff386bfd215f942ee:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_PAL",
+      "DDEX": "PAL-ETH"
+    }
+  },
+  "0xfe5f141bf94fe84bc28ded0ab966c16b17490657:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_LBA",
+      "DDEX": "LBA-ETH"
+    }
+  },
+  "0x35c896b1700e344a81b95b6bc1d4d95b4503699c:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "src": {
+      "IDEX": "ETH_XPST",
+      "DDEX": "XPST-ETH"
+    }
+  }
+}
