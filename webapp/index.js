@@ -125,16 +125,8 @@ var Table = {
     })
     return m('div', [
       m('.columns', [
-        m('.column', m('.field', [
-          m('label.label', 'Min. profit (Ξ): '),
-          m('.control', m('input.input', { type: 'text', style: { width: '100px' }, oninput: m.withAttr("value", setStateValue('minProfit')), value: state.minProfit }))
-        ])),
-        m('.column', m('.field', [
-          m('label.label', 'Min. profit (%): '),
-          m('.control', m('input.input', { type: 'text', style: { width: '100px' }, oninput: m.withAttr("value", setStateValue('minProfitPerc')), value: state.minProfitPerc }))
-        ])),
-        m('.column', m('.field', [
-          m('label.label', 'Exchanges: '),
+        m('.column.is-two-fifths', m('.field', [
+          m('label.label', 'Exchanges'),
           m('.control', function() {
             return Object.keys(exchanges).map((ek) => {
               let e = exchanges[ek]
@@ -148,7 +140,15 @@ var Table = {
           }())
         ])),
         m('.column', m('.field', [
-          m('label.label', 'Max age (min): '),
+          m('label.label', 'Min. profit (Ξ)'),
+          m('.control', m('input.input', { type: 'text', style: { width: '100px' }, oninput: m.withAttr("value", setStateValue('minProfit')), value: state.minProfit }))
+        ])),
+        m('.column', m('.field', [
+          m('label.label', 'Min. profit (%)'),
+          m('.control', m('input.input', { type: 'text', style: { width: '100px' }, oninput: m.withAttr("value", setStateValue('minProfitPerc')), value: state.minProfitPerc }))
+        ])),
+        m('.column', m('.field', [
+          m('label.label', 'Max age (min)'),
           m('.control', m('input.input', { type: 'text', style: { width: '100px' }, oninput: m.withAttr("value", setStateValue('maxMinAge')), value: state.maxMinAge }))
         ])),
         m('.column.has-text-right', [
