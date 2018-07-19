@@ -222,6 +222,62 @@ class Exchange_DDEX {
   }
 }
 
+class Exchange_StarBitex {
+  static info() {
+    return {
+      name: 'Star Bitex',
+      url: 'https://www.starbitex.com/T',
+      trade_url: 'https://www.starbitex.com/Trade',
+      weth: true
+    }
+  }
+  static async getMarkets() {
+    const wethAddr = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+    const resp = await axios({
+      url: 'https://www.starbitex.com/trade/gettokenaddress/',
+    })
+    let out = []
+    resp.data.forEach((i) => {
+      if (!i.tokenaddress) {
+        return
+      }
+      out.push({
+        pair: i.symbol + '-WETH',
+        key: i.tokenaddress + '/' + wethAddr,
+        quote: {
+          addr: i.tokenaddress,
+          symbol: i.symbol
+        },
+        base: {
+          addr: wethAddr,
+          symbol: 'ETH'
+        }
+      })
+    })
+    return out
+  }
+  static async getBook(id) {
+    const respAsk = await axios({
+      url: 'https://www.starbitex.com/Trade/gettokenorder/' + id,
+    })
+    const respBid = await axios({
+      url: 'https://www.starbitex.com/Trade/gettokenorder/' + id.split('/').reverse().join('/'),
+    })
+    function reform(arr) {
+      return arr.map(o => {
+        return {
+          price: parseFloat(o.price),
+          amount: parseFloat(o.takerTokenAmount/1e18)
+        }
+      })
+    }
+    return {
+      bid: reform(respBid.data),
+      ask: reform(respAsk.data)
+    }
+  }
+}
+
 class Exchange_Paradex {
   static info() {
     return {
@@ -358,4 +414,5 @@ module.exports = {
   'DDEX': Exchange_DDEX,
   'ERCDex': Exchange_ERCDex,
   'IDEX': Exchange_IDEX,
+  'StarBitex': Exchange_StarBitex,
 }
