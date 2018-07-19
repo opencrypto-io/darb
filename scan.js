@@ -61,7 +61,7 @@ async function run() {
     })
   })
   let fin = {}
-  Object.keys(output).forEach(dk => {
+  Object.keys(output).sort().forEach(dk => {
     let i = output[dk]
     //console.log(i)
     if (Object.keys(i.src).length < 2) {
@@ -75,7 +75,7 @@ async function run() {
   console.log(`File writed: ${fn} (${Object.keys(fin).length} pairs)`)
 
   let outTokens = {}
-  Object.keys(tokens).forEach(tk => {
+  Object.keys(tokens).sort().forEach(tk => {
     let t = tokens[tk]
     if (t.exchanges.length < 2) {
       return
