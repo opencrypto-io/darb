@@ -3,6 +3,8 @@ const axios = require('axios')
 const WebSocket = require('ws')
 const sleep = require('util').promisify(setTimeout)
 
+const wethAddr = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+
 class Exchange_OasisDEX {
   static info() {
     return {
@@ -232,7 +234,6 @@ class Exchange_StarBitex {
     }
   }
   static async getMarkets() {
-    const wethAddr = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
     const resp = await axios({
       url: 'https://www.starbitex.com/trade/gettokenaddress/',
     })
@@ -292,6 +293,8 @@ class Exchange_Paradex {
       url: 'https://api.paradex.io/api/v1/auth/refreshToken'
     })
     const authToken = tokenResp.data.token
+    await sleep(1000)
+
     const resp = await axios({
       url: 'https://api.paradex.io/api/v1/markets',
       headers: {
@@ -407,6 +410,87 @@ class Exchange_IDEX {
   }
 }
 
+
+class Exchange_TokenJar {
+  static info() {
+    return {
+      name: 'TokenJar',
+      url: 'https://tokenjar.io/',
+      trade_url: 'https://tokenjar.io/',
+      weth: true,
+    }
+  }
+  static async getMarkets(id) {
+    const resp = await axios({
+      url: 'https://tokenjar.io/token/manage/query',
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      data: 'network=1',
+    })
+    let out = []
+    resp.data.forEach(i => {
+      if (!i.address) {
+        return
+      }
+      out.push({
+        pair: i.symbol + '-WETH',
+        key: i.address + '/' + wethAddr,
+        quote: {
+          addr: i.address,
+          symbol: i.symbol,
+          decimals: i.decimals,
+        },
+        base: {
+          addr: wethAddr,
+          symbol: 'ETH',
+        }
+      })
+    })
+    return out
+  }
+  static async getBook(id) {
+    var ws = null
+    try {
+      ws = new WebSocket('wss://tokenjar.io/socket.io/?EIO=3&transport=websocket')
+    } catch (e) {
+      console.error(e)
+      return {}
+    }
+    var out = { bid: [], ask: [] }
+    let rnd = parseInt(Math.random())
+    ws.on('open', function open() {
+      let msg = 
+      ws.send('42["order_book_event","0xe94327d07fc17907b4db788e5adf2ed424addff6/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]');
+    })
+    var data = []
+    function reform(arr) {
+      return _.sortBy(arr.map(i => {
+        return {
+          price: parseFloat(i.price),
+          amount: parseFloat(i.amount)
+        }
+      }), [ 'price' ]).reverse()
+    }
+    ws.on('message', function incoming(data) {
+      data = data.replace(/^\d+/, '').trim()
+      if (!data.match(/order_book_event/)) {
+        return
+      }
+      let d = JSON.parse(data)
+      let ob = d[1]
+      out = {
+        bid: reform(ob.bids),
+        ask: reform(ob.offers).reverse(),
+      }
+    })
+    await sleep(2000)
+    ws.close()
+    return out
+  }
+}
+
 module.exports = {
   'RadarRelay': Exchange_RadarRelay,
   'OasisDEX': Exchange_OasisDEX,
@@ -415,4 +499,5 @@ module.exports = {
   'ERCDex': Exchange_ERCDex,
   'IDEX': Exchange_IDEX,
   'StarBitex': Exchange_StarBitex,
+  'TokenJar': Exchange_TokenJar,
 }
