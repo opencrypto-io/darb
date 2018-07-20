@@ -13,7 +13,7 @@ var ethData = null
 var state = {
   minProfit: '0.0001',
   minProfitPerc: '0',
-  maxMinAge: '5',
+  maxMinAge: '10',
   exchanges: {},
 }
 
@@ -244,7 +244,10 @@ var Layout = {
       m('header.hero', [
         m('.hero-body', [
           m('.container', [
-            m('h1.title', m('a', { href: 'https://darb.opencrypto.io' }, 'dARB Terminal')),
+            m('h1.title', [
+              m('a', { href: 'https://darb.opencrypto.io' }, 'dARB Terminal'),
+              m('small', { style: "color: silver;" }, ' v0.10'),
+            ]),
             m('h2.subtitle', 'Arbitrage of Ethereum ERC-20 tokens on decentralized exchanges')
           ])
         ]),
