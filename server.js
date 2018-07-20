@@ -1,15 +1,80 @@
 //const Table = require('cli-table')
 const _ = require('lodash')
 const Hapi = require('hapi')
-const Config = require('./config')
+const sleep = require('util').promisify(setTimeout)
+const Promise = require('bluebird')
+const moment = require('moment')
+const Redis = require('redis')
+const msgpack = require('msgpack-lite')
+const redis = Redis.createClient()
 
+const Config = require('./config')
 const Exchanges = require('./exchanges')
 
 const Matrix = require('./defs/matrix.json')
 const Tokens = require('./defs/tokens.json')
 
 var DB = {}
+var DBMetaData = {
+ '0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25:0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2': {
+    time: -1
+  }
+}
 
+class PoolEngine {
+  constructor() {
+    this.count = 0
+    this.gaplag = 1000
+    this.per = 5
+    this.conc = 5
+  }
+  async start() {
+    console.log('Pool started')
+    this.iterate()
+    setInterval(() => { this.iterate() }, this.gaplag)
+  }
+  async iterate() {
+    var self = this
+    // next block
+    if (this.count > 0) {
+      await sleep(this.gaplag)
+    }
+    let q = await this.pick()
+
+    Promise.map(q, async function(i) {
+      DBMetaData[i].active = true
+      comparePair(i, Matrix[i])
+    }, { 
+      concurrency: self.conc
+    }).then(() => {
+      console.log('block[%s] {%s}', self.count, JSON.stringify(q, null, 2))
+      self.count++
+    })
+  }
+  async pick(per) {
+    if (!per) {
+      per = this.per
+    }
+    //console.log('Picking %s pairs', per)
+
+    let wq = Object.keys(Matrix)
+    wq = _.shuffle(wq)
+    wq = wq.map((k) => {
+      let md = DBMetaData[k]
+      if (!md) {
+        md = DBMetaData[k] = {
+          time: 0
+        }
+      }
+      return Object.assign({ id: k }, md)
+    })
+    wq = _.filter(wq, (i) => { return (i.active !== true) })
+    wq = _.sortBy(wq, [ 'time' ])
+    return wq.slice(0, per).map((i) => { return i.id })
+  }
+}
+
+const pool = new PoolEngine()
 
 function ref(t) {
   if (t == 'bid') {
@@ -97,7 +162,7 @@ async function comparePair(id, conf) {
 
         let pid = [ id, i.src, i2.src, t ].join(':')
 
-        DB[pid] = {
+        let item = {
           pair: id,
           from_src: i.src,
           from_action: ref(t),
@@ -113,6 +178,14 @@ async function comparePair(id, conf) {
           last_updated: new Date(),
         }
 
+        redis.set('offers:'+pid, JSON.stringify(item)), 
+      
+        DB[pid] = item
+        DBMetaData[id] = {
+          time: item.last_updated,
+          active: false
+        } 
+
         count++
         //table.push([ id, i.src, ref(t), p1, i2.src, ref(rtyp), p2, profitPerc+'%' ])
         //console.log(`${id} ${i.src} -> ${i2.src} : ${ref(t)} ${i.book[t][0].price} -> ${ref(rtyp)} ${}`)
@@ -120,16 +193,43 @@ async function comparePair(id, conf) {
     })
   })
   //console.log(table.toString())
-  console.log(`Pair ${id} processed: ${count} items`)
+  //console.log(`Pair ${id} processed: ${count} items`)
 }
 
-async function run() {
-  Object.keys(Matrix).forEach((c) => {
-    comparePair(c, Matrix[c])
+function loadDB() {
+  let count = 0
+  return new Promise((resolve) => {
+    console.log('Bootstrapping DB from Redis ..')
+    redis.keys('offers:*', function(err, keys) {
+      return Promise.map(keys, (k) => {
+        return new Promise(resolveItem => {
+          redis.get(k, (err, ki) => {
+            if (err) {
+              throw new Error(err)
+            }
+            let lid = k.replace(/^offers:/, '')
+            DB[lid] = JSON.parse(ki)
+            count++
+            resolveItem()
+          })
+        })
+      })
+      .then(() => {
+        console.log('DB bootstraped ('+count+' items)')
+        resolve()
+      })
+    })
   })
 }
 
-//run()
+async function run() {
+  console.log('Starting crawling ..')
+  let lma = _.clone(Matrix)
+  lma = _.shuffle(Object.keys(lma))
+  Promise.map(lma, async function(c) {
+    await comparePair(c, Matrix[c])
+  }, { concurrency: 20 })
+}
 
 const server = Hapi.server({
   host: 'localhost',
@@ -209,8 +309,15 @@ async function startServer() {
   await server.start()
   console.log('Server started at port 8056')
 
-  setInterval(update, 60 * 1000)
-  update()
+  //setInterval(update, 120 * 1000)
+  await loadDB()
+
+  let wait = 1
+  console.log('Waiting %ss before start the pool ..', wait)
+  await sleep(1000 * wait)
+
+  // start the pool
+  await pool.start()
 }
 
 startServer()

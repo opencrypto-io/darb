@@ -5,6 +5,10 @@ const sleep = require('util').promisify(setTimeout)
 
 const wethAddr = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
+function random() {
+  return parseInt((Math.random()*1000000) + (new Date().getTime()/1000000))
+}
+
 class Exchange_OasisDEX {
   static info() {
     return {
@@ -80,7 +84,7 @@ class Exchange_OasisDEX {
 class Exchange_RadarRelay {
   static info() {
     return {
-      name: 'RadarRelay',
+      name: 'Radar Relay',
       url: 'https://radarrelay.com/',
       trade_url: 'https://app.radarrelay.com/@{quote}/@{base}',
       weth: true
@@ -293,7 +297,7 @@ class Exchange_Paradex {
       url: 'https://api.paradex.io/api/v1/auth/refreshToken'
     })
     const authToken = tokenResp.data.token
-    await sleep(1000)
+    await sleep(1500)
 
     const resp = await axios({
       url: 'https://api.paradex.io/api/v1/markets',
@@ -349,7 +353,7 @@ class Exchange_Paradex {
       }
       output[conv[d.type]].push(item)
     })
-    await sleep(2000)
+    await sleep(1500)
     ws.close()
     return output
   }
@@ -411,6 +415,115 @@ class Exchange_IDEX {
 }
 
 
+class Exchange_BambooRelay {
+  static info() {
+    return {
+      name: 'BambooRelay',
+      url: 'https://bamboorelay.com/',
+      trade_url: 'https://bamboorelay.com/trade/@{quote}-@{base}',
+      weth: true,
+    }
+  }
+  static async getMarkets(id) {
+    const resp = await axios({
+      url: 'https://bamboorelay.com/data/main/tokens.json',
+    })
+    return []
+  }
+}
+
+class Exchange_EtherDelta {
+  static info() {
+    return {
+      name: 'EtherDelta',
+      url: 'https://etherdelta.com/',
+      trade_url: 'https://etherdelta.com/#@{quote}-@{base}',
+      weth: false,
+    }
+  }
+  static async getMarkets(id) {
+    const resp = await axios({
+      url: 'https://raw.githubusercontent.com/etherdelta/etherdelta.github.io/master/site/config/main.json',
+    })
+    return resp.data.tokens.filter((t) => {
+      return (t.name !== 'ETH')
+    })
+    .map((t) => {
+      return {
+        pair: t.name + '-ETH',
+        key: t.addr,
+        quote: {
+          addr: t.addr,
+          symbol: t.name,
+        },
+        base: {
+          addr: wethAddr,
+          symbol: t.name,
+        }
+      }
+    })
+  }
+  static async getBook(id) {
+    var ws = null
+    try {
+      ws = new WebSocket('wss://socket05.etherdelta.com/socket.io/?EIO=3&transport=websocket')
+    } catch (e) {
+      console.error(e)
+      return {}
+    }
+    var out = { bid: [], ask: [] }
+    let rnd = random()
+    ws.on('open', function open() {
+      ws.send('42["getMarket",{"token":"'+id+'"}]');
+    })
+    var data = []
+    function reform(arr, rt) {
+      return _.sortBy(arr.map(i => {
+        let amount = i.amount/1e18
+        if (rt === 'ask') {
+          amount = -amount
+        }
+        return {
+          price: parseFloat(i.price),
+          amount
+        }
+      }), [ 'price' ])
+    }
+    ws.on('message', function incoming(data) {
+      data = data.replace(/^\d+/, '').trim()
+      if (!data.match(/"market"/)) {
+        return
+      }
+      let d = JSON.parse(data)
+      if (d[0] === 'market') {
+        let ob = d[1]
+        if (!ob.orders) {
+          return
+        }
+        out = {
+          bid: reform(ob.orders.buys, 'bid').reverse(),
+          ask: reform(ob.orders.sells, 'ask'),
+        }
+      }
+    })
+    await sleep(1500)
+    ws.close()
+    return out
+  }
+}
+
+class Exchange_ForkDelta extends Exchange_EtherDelta {
+  static info() {
+    return {
+      name: 'ForkDelta',
+      url: 'https://forkdelta.github.io/',
+      trade_url: 'https://forkdelta.github.io/#!/trade/@{quote}-@{base}',
+      weth: false,
+    }
+  }
+}
+
+
 class Exchange_TokenJar {
   static info() {
     return {
@@ -453,23 +566,24 @@ class Exchange_TokenJar {
   static async getBook(id) {
     var ws = null
     try {
-      ws = new WebSocket('wss://tokenjar.io/socket.io/?EIO=3&transport=websocket')
+      ws = new WebSocket('wss://tokenjar.io/socket.io/?eio=3&transport=websocket')
     } catch (e) {
       console.error(e)
       return {}
     }
     var out = { bid: [], ask: [] }
-    let rnd = parseInt(Math.random())
-    ws.on('open', function open() {
-      let msg = 
-      ws.send('42["order_book_event","0xe94327d07fc17907b4db788e5adf2ed424addff6/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]');
-    })
+    let rnd = random()
     var data = []
-    function reform(arr) {
+    function reform(arr, at) {
+      if (!arr) return []
       return _.sortBy(arr.map(i => {
+        let amount = parseFloat(i.amount)
+        if (at == 'bid') {
+           amount = i.price * amount
+        }
         return {
           price: parseFloat(i.price),
-          amount: parseFloat(i.amount)
+          amount
         }
       }), [ 'price' ]).reverse()
     }
@@ -478,14 +592,29 @@ class Exchange_TokenJar {
       if (!data.match(/order_book_event/)) {
         return
       }
-      let d = JSON.parse(data)
+      let d
+      try {
+        d = JSON.parse(data)
+      } catch(e) {
+        console.error('TokenJar WS error: ' + e)
+        return
+      }
       let ob = d[1]
       out = {
-        bid: reform(ob.bids),
-        ask: reform(ob.offers).reverse(),
+        bid: reform(ob.bids, 'bid'),
+        ask: reform(ob.offers, 'ask').reverse(),
       }
     })
-    await sleep(2000)
+    let openPromise = function() {
+      return new Promise((resolve) => {
+        ws.on('open', function () {
+          ws.send('42["order_book_event","'+id+'"]')
+          resolve()
+        })
+      }).catch(() => {})
+    }
+    await openPromise()
+    await sleep(3000)
     ws.close()
     return out
   }
@@ -500,4 +629,6 @@ module.exports = {
   'IDEX': Exchange_IDEX,
   'StarBitex': Exchange_StarBitex,
   'TokenJar': Exchange_TokenJar,
+  'BambooRelay': Exchange_BambooRelay,
+  'EtherDelta': Exchange_EtherDelta,
 }

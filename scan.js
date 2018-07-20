@@ -80,6 +80,7 @@ async function run() {
     if (t.exchanges.length < 2) {
       return
     }
+    t.exchanges = t.exchanges.sort()
     outTokens[tk] = t
   })
 
